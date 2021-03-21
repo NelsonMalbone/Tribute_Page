@@ -1,0 +1,93 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #323232;
+}
+
+body html{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    color: #fc6e20;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    margin: 15px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    max-width: 50%;
+}
+
+#img-caption {
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+#img-caption::after {
+    content: '';
+    animation: textanim 10s linear infinite;
+}
+
+@keyframes textanim {
+    25% {content: "A Engineer";}
+    50% {content: "A Special Effect Designer";}
+    75% {content: "A Actor and Educator";}
+}
+
+h3 {
+    text-align: center;
+    color: #fc6e20;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.titles {
+    color: #6B6B6B;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.basics {
+    padding: 0 15px;
+    margin: 0 15px;
+    color: #ffe7d0;
+}
+
+.earlylife {
+    padding: 0 15px;
+    margin: 0 15px;
+    color: #ffe7d0;
+}
+
+.career {
+    padding: 0 15px;
+    margin: 0 15px;
+    color: #ffe7d0;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+
+footer {
+    text-align: center;
+    display: block;
+    padding-top: 15px;
+}
